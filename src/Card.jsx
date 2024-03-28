@@ -23,7 +23,7 @@ function Card({ img, title, link, tags, information }) {
             </a>
 
 
-            <div className="text-white transition-all  duration-300 text-[13px] flex gap-1 flex-wrap justify-center group ">
+            <div className="text-white transition-all  duration-300 text-[10px] flex gap-1 flex-wrap justify-center group ">
                 {
                     tags.map((tag, index) => (
                         <p key={index} className="py-[1px] px-[3px] bg-slate-400 group-hover:bg-white transition-all duration-300 text-black rounded-lg">{tag}</p>

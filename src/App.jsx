@@ -9,16 +9,13 @@ function App() {
 	}
 
 	return (
-		<div className="w-[100vw] flex flex-col bg-black">
-			<div className="flex flex-row text-white w-[30%] mx-auto justify-between p-4">
-				<p className="border-black ">Home</p>
-				<p>Tags</p>
-				<p>Cards</p>
-				<input type="text" id="searchInput" onKeyUp={searchHandler()} />
+		<div className="w-full flex flex-col bg-black  overflow-hidden">
+			<div className="flex flex-row text-white w-[30%] mx-auto p-4">
+				<p className=" mx-auto text-3xl font-semibold">Important Links</p>
 			</div>
-			<div className="w-full h-[1px] bg-white"></div>
+			<div className="w-full h-[1px] bg-white opacity-30"></div>
 
-			<div className="grid lg:grid-cols-4 gap-3 w-[95%] mx-auto p-10 md:grid-cols-3 sm:grid-cols-1">
+			<div className="grid lg:grid-cols-4 gap-3 w-[95%] mx-auto p-10 md:grid-cols-3 sm:grid-cols-1 place-items-center">
 
 				{
 					data.map((website) => {
