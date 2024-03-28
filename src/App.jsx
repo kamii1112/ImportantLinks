@@ -23,6 +23,7 @@ function App() {
 							key={website.id}
 							img={website.img}
 							title={website.title}
+							link={website.link}
 							tags={website.tags}
 							information={website.information}
 						/>

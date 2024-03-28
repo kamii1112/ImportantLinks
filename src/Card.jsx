@@ -18,7 +18,7 @@ function Card({ img, title, link, tags, information }) {
 
             {/* card name  */}
             <a href={link} target="_blank"
-                className="text-lg font-bold text-white group-hover:text-white transition-all duration-300 capitalize underline " >
+                className="text-lg font-bold text-white group-hover:text-white transition-all duration-300 capitalize underline cursor-pointer" >
                 {title}
             </a>
 
